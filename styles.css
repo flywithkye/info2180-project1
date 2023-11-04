@@ -1,0 +1,281 @@
+/* Add your CSS to this file */
+:root{
+    --defaultFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+                        Arial, "Noto Sans", sans-serif;
+}
+
+body {
+    font-family: var(--defaultFontFamily);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    background: white;
+    font-size: 18px;
+    padding: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+header h1 {
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    float: left;
+    display:inline;
+}
+
+.learn-about {
+    clear: left;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+nav, ul{
+    display: inline;
+    float: right;
+    margin: 0;
+    font-size: 18px;
+    text-align: right;
+}
+
+nav, li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+}
+
+nav, a:link{
+    color: #6b7280;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav, a:visited{
+    color: #6b7280;
+}
+
+nav, a:hover {
+    color: #5A67D8;
+}
+
+main {
+    clear: both;
+}
+
+.overview-hero {
+    background: #E2E8F0;
+    width: 100vw;
+    min-width: 100%;
+}
+
+.overview-hero .container {
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 45%;
+    padding: 19px;    
+    padding-top: 35px; 
+}
+
+.overview-hero-image img {
+    float: left;
+    margin-right: 43px;
+    margin-top: 29px;
+    width: 220px;
+    max-height: 220px;
+}
+
+.cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 300px);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 35px;
+}
+
+.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+                rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    width: 300px;
+    height: 425px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    margin-top: 10px;
+    margin-bottom: -15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+}
+
+.card-body {
+    padding: 12px;
+    justify-content: center;
+}
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+
+.testing{
+    clear: both;
+    background: #4A5568;
+    color: white;
+    width: 100vw;
+    padding: 80px;
+}
+
+.testing .container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.testing-desciption{
+    width: 58%;
+    margin-right: 75px;
+}
+
+.cta .btn {
+    color: white;
+    background: #48BB78;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cta .btn:hover {
+    background: #34905a;
+  }
+
+.cta .btn a:visited{
+    color: white;
+}
+.stories{
+    margin-top: 30px;
+    padding: 45px;
+}
+
+.stories h2{
+    margin-top: 30px;
+    margin: 15px;
+    color: #5A67D8;
+}
+
+article{
+    clear: left;
+    padding: 30px;
+    margin-left: -50px;
+}
+
+article img{
+    border-radius: 80%;
+    width: 200px;
+    height: 190px;
+    margin-right: 27px;
+    float: left;
+    padding: 20px;
+}
+.article-body{
+    width: 93%;
+}
+
+article h3 {
+    font-size: 18px;
+}
+
+.newsletter {
+    clear: left;
+    padding: 45px;
+    padding-bottom: 40px;
+    background: #48BB78;
+    width: 100vw;
+    color: white;
+}
+
+.newsletter .container{
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -18px;
+}
+
+.newsletter h3 + p{
+    margin-top: -2px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+}
+
+form input{
+	font: inherit;
+	outline: inherit;
+	border: none;
+    padding: 16px;
+    padding-left: 20px;
+    padding-right: 80px;
+    margin-right: 10px;
+}
+
+form input::placeholder{
+    color: #b6c0ca;
+    opacity: 1;
+}
+
+form button{
+    background: #5A67D8;
+    color: inherit;
+	font: inherit;
+	outline: inherit;
+	border: none;
+    padding: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+form button:hover{
+    background: #515cc7;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+footer {
+    background: #4A5568;
+    color: white;
+    clear: both;
+    width: 100vw;
+}
+  
