@@ -83,7 +83,7 @@ main {
 .overview-hero .container {
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 210px;
     width: 45%;
     padding: 19px;    
     padding-top: 35px; 
@@ -92,9 +92,9 @@ main {
 .overview-hero-image img {
     float: left;
     margin-right: 43px;
-    margin-top: 29px;
-    width: 220px;
-    max-height: 220px;
+    margin-top: 25px;
+    width: 196px;
+    height: 160px;
 }
 
 .cards {
@@ -112,7 +112,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
                 rgba(0, 0, 0, 0.07) 0px 16px 16px;
     width: 300px;
-    height: 425px;
+    height: 447px;
     align-items: center;
     justify-content: center;
 }
@@ -124,10 +124,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 295px;
+    min-height: 200px;
+    max-height: 246px;
 }
 
 .card-body {
-    padding: 12px;
+    padding: 15px;
     justify-content: center;
 }
 
@@ -169,7 +171,7 @@ main {
 }
 
 .cta .btn:hover {
-    background: #34905a;
+    background: #34935c;
   }
 
 .cta .btn a:visited{
@@ -194,8 +196,9 @@ article{
 
 article img{
     border-radius: 80%;
-    width: 200px;
-    height: 190px;
+    width: 205px;
+    min-height: 189px;
+    max-height: 196px;
     margin-right: 27px;
     float: left;
     padding: 20px;
@@ -263,7 +266,7 @@ form button{
 }
 
 form button:hover{
-    background: #515cc7;
+    background: #4651b3;
 }
 
 .container {
